@@ -3,16 +3,16 @@ export const Borde = () => {
     
     return (
         <>
-            <div className="left-0 md:pl-5 lg:pl-9 z-50 md:grid hidden items-center h-screen fixed dark:text-white">
-                <div className="vertical-text">
+            {/* <div className="left-0 md:pl-5 lg:pl-9 z-50 md:grid hidden items-center h-screen fixed dark:text-white">
+                <div className="vertical-text text-xl text-center">
                     <p>jjalixtoc@gmail.com</p>
                 </div>
-            </div>
+            </div>  
             <div className="rigth-0 md:pr-5 lg:pr-9 z-50 md:grid hidden items-center h-screen fixed dark:text-white">
-                <div className="vertical-text">
+                <div className="vertical-text text-xl text-center">
                     <p>Joel Jalixto Chavez</p>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

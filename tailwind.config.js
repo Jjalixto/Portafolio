@@ -7,7 +7,7 @@ export default {
   "darkMode": 'class',
   theme: {
     fontFamily: {
-      'sans':['Outfit','sans-serif'],
+      // 'sans':['Outfit','sans-serif'],
     },
     extend: {},
   },
