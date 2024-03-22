@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export const Header = () => {
 
@@ -40,10 +41,10 @@ export const Header = () => {
                         <a href="/" className="hover:text-neutral-500 cursor-pointer font-outfit text-black font-bold text-xl ml-8 space-x-4 dark:text-white">JOEL</a>
                         <nav className="ml-6 hidden md:block">
                             <ul className="font-outfit flex space-x-4 items-center text-black dark:text-white">
-                                <li className="hover:text-black cursor-pointer text-gray-600 dark:text-white dark:hover:text-gray-500">Inicio</li>
-                                <li className="hover:text-black cursor-pointer text-gray-600 dark:text-white dark:hover:text-gray-500">Sobre Mi</li>
-                                <li className="hover:text-black cursor-pointer text-gray-600 dark:text-white dark:hover:text-gray-500">Mis Habilidades</li>
-                                <li className="hover:text-black cursor-pointer text-gray-600 dark:text-white dark:hover:text-gray-500">Mis Proyectos</li>
+                                <NavLink to="/" className="hover:text-black cursor-pointer text-gray-600 dark:text-white dark:hover:text-gray-500">Inicio</NavLink>
+                                <NavLink to={"/perfil"} className="hover:text-black cursor-pointer text-gray-600 dark:text-white dark:hover:text-gray-500">Sobre Mi</NavLink>
+                                <NavLink to={"/mis-habilidades"} className="hover:text-black cursor-pointer text-gray-600 dark:text-white dark:hover:text-gray-500">Mis Habilidades</NavLink>
+                                <NavLink to={"/mis-proyectos"} className="hover:text-black cursor-pointer text-gray-600 dark:text-white dark:hover:text-gray-500">Mis Proyectos</NavLink>
                             </ul>
                         </nav>
                     </div>

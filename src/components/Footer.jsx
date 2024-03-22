@@ -3,7 +3,7 @@ export const Footer = () => {
 
     return (
         <>
-            <div className="flex justify-between py-1 px-14  text-black dark:bg-gray-800 dark:text-white">
+            <div className="flex justify-between py-1 px-14 text-black dark:bg-gray-800 dark:text-white">
                 <div className="flex items-center">
                     <p>© 2023 <span className="font-bold">Joel Jalixto</span>. Todos los derechos reservados.</p>
                 </div>
